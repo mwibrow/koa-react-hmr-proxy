@@ -1,6 +1,7 @@
 # koa-react-hmr-proxy
 
-Simple example of proxying webpack's hot-module-reloading with React.
+Simple example of proxying webpack's hot-module-reloading with
+[React](https://reactjs.org/) using [Koa](https://koajs.com/).
 
 ## Usage
 
