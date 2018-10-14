@@ -77,4 +77,4 @@ usr/
 .DS_Store
 
 # Project specific stuff
-package-log.jdon
+package-lock.json
