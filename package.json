@@ -1,0 +1,60 @@
+{
+  "name": "koa-react-hmr-proxy",
+  "version": "1.0.0",
+  "description": "Simple example of proxying webpack's hot-module-reloading.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "http": "0.0.0",
+    "koa": "^2.5.3",
+    "koa-connect": "^2.0.1",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static-cache": "^5.1.2",
+    "koa-webpack-hot-middleware": "^1.0.3",
+    "nodemon": "^1.18.4",
+    "nodemon-webpack-plugin": "^3.0.1",
+    "react": "^16.5.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "es2040": "^1.2.6",
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "env": {
+      "jest": true
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}
