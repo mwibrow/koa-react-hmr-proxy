@@ -2,7 +2,11 @@
   "name": "koa-react-hmr-proxy",
   "version": "1.0.0",
   "description": "Simple example of proxying webpack's hot-module-reloading.",
-  "main": "index.js",
+  "main": "",
+  "repository":  {
+    "type" : "git",
+    "url": "https://github.com/mwibrow/koa-react-hmr-proxy.git"
+  },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -68,10 +72,7 @@
       "standard",
       "eslint:recommended",
       "plugin:react/recommended"
-    ],
-    "env": {
-      "jest": true
-    }
+    ]
   },
   "author": "Mark Wibrow",
   "license": "MIT"
