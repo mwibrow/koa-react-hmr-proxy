@@ -1,7 +1,8 @@
 import appView from '../views/app'
 
-const app = async (ctx) => {
+const app = (ctx) => {
   ctx.status = 200
+  ctx.type = 'html'
   ctx.body = appView()
 }
 

@@ -1,4 +1,4 @@
-import { config } from '../config'
+import config from '../config'
 import processEnv from '../lib/env'
 
 const appView = () => `
